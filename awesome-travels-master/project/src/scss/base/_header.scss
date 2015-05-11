@@ -1,0 +1,42 @@
+
+
+header{
+	background-color: #ffffff;
+	padding: 20px 40px;
+}
+
+.logo{
+	width: 75px;
+	display: inline-block;
+}
+
+.mainHeader{
+	float: left;
+}
+
+.mainHeader p{
+	float: right;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+nav li{
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 30px;
+	float: right;
+}
+
+nav{
+	padding-top: 15px;
+}
+
+nav a{
+	padding-top: 15px;
+	color:$mainColor;
+}
+
+.menu-toggle{
+	display: none;
+	width: 20px;
+}

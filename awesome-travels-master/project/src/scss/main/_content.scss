@@ -1,0 +1,92 @@
+body{
+	background-color: #f0f0f0;
+}
+
+.home{
+	background: url(../../img/heading.jpg) no-repeat center;
+	background-size: cover;
+	height: 23rem;
+	padding: 4rem;
+	position: relative;
+	text-align: center;
+
+	input[type="text"]{
+		border: 0;
+		font-family: $textFont;
+		font-size: 1rem;
+		padding: 15px 400px 15px 15px;
+		
+	}
+
+	input[type="submit"]{
+		background-color: $thirdColor;
+		border: 0;
+		color: #ffffff;
+		font-family: $textFont;
+		font-size: 1rem;
+		margin-left: 0;
+		padding: 15px 30px;
+	}
+
+	h1{
+		position: absolute;
+			top: 50%;
+
+		margin-top: -26px;
+	}
+
+	form{
+		position: absolute;
+			bottom: 2rem;
+			left: 50%;
+		margin-left: -333px;
+	}
+	label{
+	display: none;
+	}
+}
+
+.content{
+	margin:0 auto;
+	padding: 4rem;
+	width: 90%;
+
+	h2{
+		margin: 0 auto;
+		text-align: center;
+		width: 75%;
+	}
+	
+}
+
+.offer{
+
+	background-color: #ffffff;
+	border: 1px solid #eee;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+	width: 20%;
+
+	img{
+		width: 100%;
+	}
+
+	h3{
+		position: absolute;
+			top: -28px;
+			left: 10px;
+	}
+	
+	ul{
+		padding: 0;
+	}
+
+	li{
+		display: inline-block;
+	}
+
+}
+
+
