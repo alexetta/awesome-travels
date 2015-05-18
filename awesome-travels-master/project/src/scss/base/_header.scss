@@ -20,6 +20,10 @@ header{
 	padding-top: 15px;
 }
 
+.menuToggle{
+	display: none;
+}
+
 nav li{
 	display: inline-block;
 	list-style-type: none;
@@ -31,10 +35,15 @@ nav{
 	padding-top: 15px;
 }
 
+//añadido hover a lo "sass"
 nav a{
 	padding-top: 15px;
 	color:$mainColor;
+	&:hover{
+		color: red;
+	}
 }
+
 
 .menu-toggle{
 	display: none;

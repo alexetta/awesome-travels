@@ -9,15 +9,16 @@ body{
 	padding: 4rem;
 	position: relative;
 	text-align: center;
-
+	//arreglo de padding magico que no es, i añadido de width
 	input[type="text"]{
 		border: 0;
 		font-family: $textFont;
 		font-size: 1rem;
-		padding: 15px 400px 15px 15px;
+		height: 45px;
+		width: 74%;
 		
 	}
-
+	//multiplesarreglos
 	input[type="submit"]{
 		background-color: $thirdColor;
 		border: 0;
@@ -25,26 +26,42 @@ body{
 		font-family: $textFont;
 		font-size: 1rem;
 		margin-left: 0;
-		padding: 15px 30px;
+		height: 45px;
+		width: 25%;
+
+		// añadido cursor 
+		cursor: pointer;
+
+	}
+	// Añadido de hover en botón "go"
+	input[type="submit"]:hover{
+		background-color: red;	
 	}
 
+
+	//centrado de texto
 	h1{
 		position: absolute;
-			top: 50%;
+		top: 50%;
+		right: 0;
+		left: 0;
 
 		margin-top: -26px;
 	}
 
 	form{
+		//centrado correcto
 		position: absolute;
-			bottom: 2rem;
-			left: 50%;
-		margin-left: -333px;
+		bottom: 2rem;
+		left: 0;
+		right: 0;
+		padding: 0 15px 0 15px;
 	}
 	label{
-	display: none;
+		display: none;
 	}
 }
+//reindentado!
 
 .content{
 	margin:0 auto;
@@ -60,11 +77,11 @@ body{
 }
 
 .offer{
-
+	//arreglo margin
 	background-color: #ffffff;
 	border: 1px solid #eee;
 	display: inline-block;
-	margin: 10px;
+	margin: 10px 10px 30px;
 	padding: 10px;
 	position: relative;
 	width: 20%;
@@ -73,10 +90,11 @@ body{
 		width: 100%;
 	}
 
+	//un poquitin de separación
 	h3{
 		position: absolute;
-			top: -28px;
-			left: 10px;
+		top: -35px;
+		left: 10px;
 	}
 	
 	ul{

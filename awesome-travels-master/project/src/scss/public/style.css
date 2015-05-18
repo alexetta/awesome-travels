@@ -47,6 +47,9 @@ header {
   padding-left: 20px;
   padding-top: 15px; }
 
+.menuToggle {
+  display: none; }
+
 nav li {
   display: inline-block;
   list-style-type: none;
@@ -59,6 +62,8 @@ nav {
 nav a {
   padding-top: 15px;
   color: #45cda4; }
+  nav a:hover {
+    color: red; }
 
 .menu-toggle {
   display: none;
@@ -95,7 +100,8 @@ body {
     border: 0;
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
-    padding: 15px 400px 15px 15px; }
+    height: 45px;
+    width: 74%; }
   .home input[type="submit"] {
     background-color: #FFB635;
     border: 0;
@@ -103,16 +109,23 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     margin-left: 0;
-    padding: 15px 30px; }
+    height: 45px;
+    width: 25%;
+    cursor: pointer; }
+  .home input[type="submit"]:hover {
+    background-color: red; }
   .home h1 {
     position: absolute;
     top: 50%;
+    right: 0;
+    left: 0;
     margin-top: -26px; }
   .home form {
     position: absolute;
     bottom: 2rem;
-    left: 50%;
-    margin-left: -333px; }
+    left: 0;
+    right: 0;
+    padding: 0 15px 0 15px; }
   .home label {
     display: none; }
 
@@ -129,7 +142,7 @@ body {
   background-color: #ffffff;
   border: 1px solid #eee;
   display: inline-block;
-  margin: 10px;
+  margin: 10px 10px 30px;
   padding: 10px;
   position: relative;
   width: 20%; }
@@ -137,28 +150,40 @@ body {
     width: 100%; }
   .offer h3 {
     position: absolute;
-    top: -28px;
+    top: -35px;
     left: 10px; }
   .offer ul {
     padding: 0; }
   .offer li {
     display: inline-block; }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 600px) {
   .offer {
     display: block;
-    min-width: 190px; } }
-@media only screen and (max-width: 800px) {
-  nav {
+    min-width: 40%;
+    float: left; }
+
+  .mainHeader p {
     display: none; }
 
   .content {
-    padding: 3rem 0; } }
-@media only screen and (max-width: 600px) {
-  input [type="text"] {
-    padding: 15px 100px 15px 15px; } }
-@media only screen and (max-width: 320px) {
-  .content {
-    padding: 0.75rem 0; } }
+    padding: 0.75rem; }
+
+  .home input[type="submit"] {
+    width: 100%; }
+
+  .home input[type="text"] {
+    width: 100%;
+    margin-top: 15px; } }
+@media (max-width: 450px) {
+  nav {
+    display: none; }
+
+  .menuToggle {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
